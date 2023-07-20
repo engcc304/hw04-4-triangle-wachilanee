@@ -22,6 +22,6 @@ int main()
     scanf( "%f",&H ) ;
     printf("Please Enter Wight : " ) ;
     scanf( "%f",&W ) ;
-    printf( "Triagle Area : %.1f", (H * W)/W ) ; 
+    printf( "Triagle Area : %.1f", (H * W)/2 ) ; 
     return 0;
 }
