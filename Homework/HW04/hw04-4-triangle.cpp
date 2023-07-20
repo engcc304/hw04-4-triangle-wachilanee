@@ -17,11 +17,11 @@
 #include <stdio.h>
 int main()
 {
-    float H = 0, W = 0;
-    printf("Please Enter Hight : ") ; 
-    scanf("%f",&H) ;
-    printf("Please Enter Wight : ") ;
-    scanf("%f",&W) ;
-    printf("Triagle Area : %.1f", (H * W)/W) ; 
+    float H = 0, W = 0 ;
+    printf( "Please Enter Hight : " ) ; 
+    scanf( "%f",&H ) ;
+    printf("Please Enter Wight : " ) ;
+    scanf( "%f",&W ) ;
+    printf( "Triagle Area : %.1f", (H * W)/W ) ; 
     return 0;
 }
